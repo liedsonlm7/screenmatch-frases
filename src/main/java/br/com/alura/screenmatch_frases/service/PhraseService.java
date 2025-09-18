@@ -12,7 +12,7 @@ public class PhraseService {
     private PhraseRepository repository;
 
     public PhraseDTO getRandomPhrase() {
-        Phrase phrase = repository.findById(4L).get();
+        Phrase phrase = repository.buscaFraseAleatoria();
         return new PhraseDTO(phrase.getTitulo(), phrase.getFrase(), phrase.getPersonagem(), phrase.getPoster());
     }
 }
