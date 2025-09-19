@@ -1,6 +1,8 @@
 ## Screenmatch Frases
 Screenmatch Frases é uma plataforma fictícia que exibe frases marcantes dos personagens em filmes e séries.
 
+![Tela Inicial](docs/img/screenmatch-frases-1.png)
+
 <br>
 
 ## 🚀 Tecnologias 
